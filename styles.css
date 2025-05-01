@@ -23,19 +23,34 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    
 }
 
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 h1 {
     font: bold 22px/140% "outfit", sans-serif;
     color: var(--Slate-900);
     letter-spacing: 0;
+    line-height: 1.1;
+
+    margin-top: var(--300);
+    margin-bottom: 15px;
+
+    width: 256px;
 }
 
 p {
     font: 400 15px/140% "outfit", sans-serif;
-    color: var(--Slate-900);
+    color: var(--Slate-500);
     letter-spacing: 0.2px;
+
+    width: 256px;
 }
 
 /*------------------QR CODE CARD------------------*/
@@ -43,6 +58,11 @@ p {
 .card {
     width: 320px;
     height: 499px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
     background-color: #fff;
     border-radius: 20px;
@@ -52,4 +72,6 @@ p {
 img {
     width: 288px;
     height: 288px;
+
+    border-radius: 10px;
 }
