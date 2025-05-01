@@ -78,3 +78,22 @@ img {
 
 /*------------------FOOTER------------------*/
 
+footer {
+    color: var(--Slate-500);
+}
+
+.attribution a {
+    display: inline-block;
+    text-decoration: none;
+    font: 400 17px/140% "outfit", sans-serif;
+    color: var(--Slate-900);
+
+    transition: all 0.2s ease;
+}
+
+.attribution a:hover {
+    color: #25477f;
+    text-decoration: underline;
+
+    transform: translateY(-2px);
+}
