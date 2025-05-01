@@ -11,3 +11,13 @@
     --300: 24px;
     --200: 16px;
 }
+
+body {
+    background-color: var(--Slate-300);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
