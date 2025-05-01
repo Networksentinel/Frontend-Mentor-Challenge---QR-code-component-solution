@@ -12,12 +12,27 @@
     --200: 16px;
 }
 
+/*------------------GENERAL STYLES------------------*/
+
 body {
     background-color: var(--Slate-300);
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
+
+h1 {
+    font: bold 22px/140% "outfit", sans-serif;
+    color: var(--Slate-900);
+    letter-spacing: 0;
+}
+
+p {
+    font: 400 15px/140% "outfit", sans-serif;
+    color: var(--Slate-900);
+    letter-spacing: 0.2px;
+}
+
+
