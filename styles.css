@@ -15,13 +15,16 @@
 /*------------------GENERAL STYLES------------------*/
 
 body {
+    height: 100vh;
     background-color: var(--Slate-300);
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
+
 
 h1 {
     font: bold 22px/140% "outfit", sans-serif;
@@ -35,4 +38,18 @@ p {
     letter-spacing: 0.2px;
 }
 
+/*------------------QR CODE CARD------------------*/
 
+.card {
+    width: 320px;
+    height: 499px;
+
+    background-color: #fff;
+    border-radius: 20px;
+    padding: var(--200) var(--200) var(--500) var(--200);
+}
+
+img {
+    width: 288px;
+    height: 288px;
+}
