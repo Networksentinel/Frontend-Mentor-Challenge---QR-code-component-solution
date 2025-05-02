@@ -24,7 +24,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
     
@@ -34,7 +34,6 @@ main {
     height: 100%;
 
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
 }
@@ -105,10 +104,6 @@ footer {
     transform: translateY(-2px);
 }
 
-/*------------------MEDIA QUERIES------------------*/
-
-@media (max-width: 420px) {
-    .attribution span {
-        display: block;
-    }
+.attribution span {
+    display: block;
 }
